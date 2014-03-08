@@ -1,6 +1,7 @@
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
 
+@class Bridge;
 @class Sound;
 @class Dock;
 @class Growl;
@@ -13,6 +14,7 @@
 @class WindowController;
 
 @interface WebViewDelegate : NSObject {
+	Bridge* bridge;
 	Sound* sound;
     Dock* dock;
     Growl* growl;
@@ -25,6 +27,7 @@
 
 
 
+@property (nonatomic, retain) Bridge* bridge;
 @property (nonatomic, retain) Sound* sound;
 @property (nonatomic, retain) Dock* dock;
 @property (nonatomic, retain) Growl* growl;

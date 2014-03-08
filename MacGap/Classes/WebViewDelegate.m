@@ -1,4 +1,5 @@
 #import "WebViewDelegate.h"
+#import "bridge.h"
 #import "Sound.h"
 #import "Dock.h"
 #import "Growl.h"
@@ -10,6 +11,7 @@
 #import "Clipboard.h"
 @implementation WebViewDelegate
 
+@synthesize bridge;
 @synthesize sound;
 @synthesize dock;
 @synthesize growl;
@@ -22,6 +24,7 @@
 
 - (void) webView:(WebView*)webView didClearWindowObject:(WebScriptObject*)windowScriptObject forFrame:(WebFrame *)frame
 {
+	if (self.bridge == nil) { self.bridge = [Bridge new]; }
 	if (self.sound == nil) { self.sound = [Sound new]; }
 	if (self.dock == nil) { self.dock = [Dock new]; }
 	if (self.growl == nil) { self.growl = [Growl new]; }
