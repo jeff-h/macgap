@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1495814F15C15CCC00E1CFE5 /* Notice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495814E15C15CCC00E1CFE5 /* Notice.m */; };
+		6F169D9B18CAE96E005EDDF3 /* Shell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F169D9A18CAE96E005EDDF3 /* Shell.m */; };
 		88746BEE14CCA435001E160E /* JSEventHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88746BED14CCA435001E160E /* JSEventHelper.m */; };
 		88C0646014BDE10A00E4BCE2 /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0645F14BDE10A00E4BCE2 /* Window.m */; };
 		88C0646614BDEC5800E4BCE2 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C0646414BDEC5800E4BCE2 /* Window.xib */; };
@@ -50,6 +51,8 @@
 /* Begin PBXFileReference section */
 		1495814D15C15CCC00E1CFE5 /* Notice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notice.h; path = Classes/Commands/Notice.h; sourceTree = "<group>"; };
 		1495814E15C15CCC00E1CFE5 /* Notice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notice.m; path = Classes/Commands/Notice.m; sourceTree = "<group>"; };
+		6F169D9918CAE96E005EDDF3 /* Shell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shell.h; path = Classes/Commands/Shell.h; sourceTree = "<group>"; };
+		6F169D9A18CAE96E005EDDF3 /* Shell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shell.m; path = Classes/Commands/Shell.m; sourceTree = "<group>"; };
 		88746BEC14CCA435001E160E /* JSEventHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSEventHelper.h; path = Classes/JSEventHelper.h; sourceTree = "<group>"; };
 		88746BED14CCA435001E160E /* JSEventHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSEventHelper.m; path = Classes/JSEventHelper.m; sourceTree = "<group>"; };
 		88C0645E14BDE10A00E4BCE2 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Window.h; path = Classes/Window.h; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 				FA3250CF14BA860800BF0781 /* Path.m */,
 				FA3250D014BA860800BF0781 /* Sound.h */,
 				FA3250D114BA860800BF0781 /* Sound.m */,
+				6F169D9918CAE96E005EDDF3 /* Shell.h */,
+				6F169D9A18CAE96E005EDDF3 /* Shell.m */,
 				FA3250C814BA860800BF0781 /* App.h */,
 				FA3250C914BA860800BF0781 /* App.m */,
 				88C0645E14BDE10A00E4BCE2 /* Window.h */,
@@ -298,6 +303,7 @@
 				FA3250C714BA85E700BF0781 /* WebViewDelegate.m in Sources */,
 				FAE451CB14BA79C600190544 /* main.m in Sources */,
 				FAE451D214BA79C600190544 /* AppDelegate.m in Sources */,
+				6F169D9B18CAE96E005EDDF3 /* Shell.m in Sources */,
 				88C0646014BDE10A00E4BCE2 /* Window.m in Sources */,
 				88C0646D14BDF6A600E4BCE2 /* WindowController.m in Sources */,
 				88746BEE14CCA435001E160E /* JSEventHelper.m in Sources */,
