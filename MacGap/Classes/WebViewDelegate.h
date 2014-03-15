@@ -6,6 +6,7 @@
 @class Growl;
 @class Notice;
 @class Path;
+@class Shell;
 @class App;
 @class Window;
 @class Clipboard;
@@ -21,6 +22,7 @@
     Notice* notice;
     Path* path;
     App* app;
+    Shell* shell;
     Window* window;
     Clipboard* clipboard;
     NSMenu *mainMenu;
@@ -35,6 +37,7 @@
 @property (nonatomic, retain) Notice* notice;
 @property (nonatomic, retain) Path* path;
 @property (nonatomic, retain) App* app;
+@property (nonatomic, retain) Shell* shell;
 @property (nonatomic, retain) Window* window;
 @property (nonatomic, retain) Clipboard* clipboard;
 @property (nonatomic, retain) MenuProxy* menu;

@@ -14,6 +14,7 @@
 		6F169DB118CD906F005EDDF3 /* MenuItemProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F169DAE18CD906F005EDDF3 /* MenuItemProxy.m */; };
 		6F169DB218CD906F005EDDF3 /* MenuProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F169DB018CD906F005EDDF3 /* MenuProxy.m */; };
 		6FD6E4ED18C2D48C00DFFBE6 /* fonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6E4EC18C2D48C00DFFBE6 /* fonts.m */; };
+		6F169D9B18CAE96E005EDDF3 /* Shell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F169D9A18CAE96E005EDDF3 /* Shell.m */; };
 		88746BEE14CCA435001E160E /* JSEventHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88746BED14CCA435001E160E /* JSEventHelper.m */; };
 		88C0646014BDE10A00E4BCE2 /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0645F14BDE10A00E4BCE2 /* Window.m */; };
 		88C0646614BDEC5800E4BCE2 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C0646414BDEC5800E4BCE2 /* Window.xib */; };
@@ -67,6 +68,8 @@
 		6F169DB018CD906F005EDDF3 /* MenuProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuProxy.m; path = Classes/Commands/MenuProxy.m; sourceTree = "<group>"; };
 		6FD6E4EB18C2D48200DFFBE6 /* fonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fonts.h; path = Classes/Commands/fonts.h; sourceTree = "<group>"; };
 		6FD6E4EC18C2D48C00DFFBE6 /* fonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = fonts.m; path = Classes/Commands/fonts.m; sourceTree = "<group>"; };
+		6F169D9918CAE96E005EDDF3 /* Shell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shell.h; path = Classes/Commands/Shell.h; sourceTree = "<group>"; };
+		6F169D9A18CAE96E005EDDF3 /* Shell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shell.m; path = Classes/Commands/Shell.m; sourceTree = "<group>"; };
 		88746BEC14CCA435001E160E /* JSEventHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSEventHelper.h; path = Classes/JSEventHelper.h; sourceTree = "<group>"; };
 		88746BED14CCA435001E160E /* JSEventHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSEventHelper.m; path = Classes/JSEventHelper.m; sourceTree = "<group>"; };
 		88C0645E14BDE10A00E4BCE2 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Window.h; path = Classes/Window.h; sourceTree = "<group>"; };
@@ -165,6 +168,8 @@
 				FA3250CF14BA860800BF0781 /* Path.m */,
 				FA3250D014BA860800BF0781 /* Sound.h */,
 				FA3250D114BA860800BF0781 /* Sound.m */,
+				6F169D9918CAE96E005EDDF3 /* Shell.h */,
+				6F169D9A18CAE96E005EDDF3 /* Shell.m */,
 				FA3250C814BA860800BF0781 /* App.h */,
 				FA3250C914BA860800BF0781 /* App.m */,
 				6F169DAD18CD906F005EDDF3 /* MenuItemProxy.h */,
@@ -330,6 +335,7 @@
 				6F169DB118CD906F005EDDF3 /* MenuItemProxy.m in Sources */,
 				FAE451D214BA79C600190544 /* AppDelegate.m in Sources */,
 				6F169DA718CC332E005EDDF3 /* Command.m in Sources */,
+				6F169D9B18CAE96E005EDDF3 /* Shell.m in Sources */,
 				88C0646014BDE10A00E4BCE2 /* Window.m in Sources */,
 				6F169DB218CD906F005EDDF3 /* MenuProxy.m in Sources */,
 				88C0646D14BDF6A600E4BCE2 /* WindowController.m in Sources */,

@@ -5,6 +5,7 @@
 #import "Notice.h"
 #import "Path.h"
 #import "App.h"
+#import "Shell.h"
 #import "Window.h"
 #import "WindowController.h"
 #import "Clipboard.h"
@@ -19,6 +20,7 @@
 @synthesize notice;
 @synthesize path;
 @synthesize app;
+@synthesize shell;
 @synthesize window;
 @synthesize requestedWindow;
 @synthesize clipboard;
@@ -43,6 +45,7 @@
 	if (self.growl == nil) { self.growl = [Growl new]; }
 	if (self.notice == nil && [Notice available] == YES) { self.notice = [Notice new]; }
 	if (self.path == nil) { self.path = [Path new]; }
+	if (self.shell == nil) { self.shell = [Shell new]; }
 	if (self.clipboard == nil) { self.clipboard = [Clipboard new]; }
 	if (self.fonts == nil) { self.fonts = [Fonts new]; }
 	
